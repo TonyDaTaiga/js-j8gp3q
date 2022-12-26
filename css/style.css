@@ -1,0 +1,80 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+#output,
+#box2 {
+  width: 90%;
+  /* height: 400px; */
+  margin: 5px;
+  padding: 5px;
+}
+
+#output {
+  background: #ddd;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: smaller;
+  white-space: pre;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+#box2 {
+  background: #eec;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+#rightButton {
+  background-color: blue;
+}
+
+#leftButton {
+  background-color: darkorange;
+}
+
+#middleButton {
+  border-radius: 5px;
+  transform: rotate(0deg);
+  transition: all 1s ease-out;
+}
+
+.gameText {
+  padding: 5px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type='text'] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type='text']:focus {
+  border-color: #333;
+}
+
+/* input[type='submit'] {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+} */
